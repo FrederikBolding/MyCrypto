@@ -36,6 +36,9 @@ import informational from '@assets/images/icn-info-blue.svg';
 import more from '@assets/images/icn-more.svg';
 import questionWhite from '@assets/images/icn-question-white.svg';
 import questionBlack from '@assets/images/icn-question.svg';
+import statusBadgeDeclined from '@assets/images/icn-status-badge-declined.svg';
+import statusBadgePending from '@assets/images/icn-status-badge-pending.svg';
+import statusBadgeSuccess from '@assets/images/icn-status-badge-success.svg';
 import warning from '@assets/images/icn-warning.svg';
 import lendLogo from '@assets/images/lend-logo.png';
 import membership from '@assets/images/membership/membership-none.svg';
@@ -94,7 +97,11 @@ const svgIcons = {
   slack,
   telegram,
   twitter,
-  check
+  check,
+
+  'status-badge-success': statusBadgeSuccess,
+  'status-badge-pending': statusBadgePending,
+  'status-badge-declined': statusBadgeDeclined
 };
 
 const pngIcons = {
