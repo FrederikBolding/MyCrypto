@@ -1061,5 +1061,31 @@ export const NETWORKS_CONFIG: NetworkConfig = {
       max: 60,
       initial: 1
     }
+  },
+  HECO: {
+    id: 'HECO',
+    name: 'Huobi Eco Chain',
+    unit: 'HT' as TTicker,
+    chainId: 128,
+    isCustom: false,
+    color: '#6d2eae',
+    blockExplorer: makeExplorer({
+      name: 'HECO Explorer',
+      origin: 'https://hecoinfo.com'
+    }),
+    tokens: [],
+    contracts: [],
+    dPaths: {
+      [WalletId.TREZOR]: DPaths.HECO_DEFAULT,
+      [WalletId.LEDGER_NANO_S]: DPaths.HECO_DEFAULT,
+      [WalletId.TREZOR_NEW]: DPaths.HECO_DEFAULT,
+      [WalletId.LEDGER_NANO_S_NEW]: DPaths.HECO_DEFAULT,
+      default: DPaths.HECO_DEFAULT
+    },
+    gasPriceSettings: {
+      min: 1,
+      max: 60,
+      initial: 1
+    }
   }
 };

@@ -180,6 +180,11 @@ const EVRICE_DEFAULT: DPath = {
   value: "m/44'/1020'/0'/0"
 };
 
+const HECO_DEFAULT: DPath = {
+  label: 'Default (HECO)',
+  value: "m/44'/1010'/0'/0"
+};
+
 export const DPathsList = {
   ETH_DEFAULT,
   ETH_TREZOR,
@@ -216,7 +221,8 @@ export const DPathsList = {
   VOLTA_DEFAULT,
   EWC_DEFAULT,
   AVAX_DEFAULT,
-  EVRICE_DEFAULT
+  EVRICE_DEFAULT,
+  HECO_DEFAULT
 };
 
 // PATHS TO BE INCLUDED REGARDLESS OF WALLET FORMAT
